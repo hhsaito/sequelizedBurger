@@ -1,0 +1,67 @@
+body {
+	background: #F9CC68;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+main {
+	width: 1280px;
+	margin: 1em auto;
+}
+img {
+	display: block;
+	margin: 1em auto;
+}
+h1 {
+	color: #E63E27;
+	text-align: center;
+}
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+li {
+	padding: 0.5em;
+	margin-bottom: 0.5em;
+	background: #EDEDED;
+	width: 70%;
+}
+#waiting {
+	width: 50%;
+	float: left;
+	margin-bottom: 1em;
+}
+#waiting button {
+	float: right;
+}
+#eaten {
+	width: 50%;
+	float: right;
+	margin-bottom: 1em;
+}
+#eaten li {
+	color: #A9A9A9;
+}
+#eaten li button {
+	display: none;
+}
+#centered {
+	text-align: center;
+	clear: both;
+}
+#centered form {
+	margin: 1em;
+}
+@media screen and (max-width: 1280px) {
+	main {
+		width: 95%;
+	}
+}
+@media screen and (max-width: 750px) {
+	#waiting, #eaten {
+		float: none;
+		width: 100%;
+		margin-bottom: 2em;
+	}
+	li {
+		width: 97%;
+	}
