@@ -68,7 +68,7 @@ $(document).ready(function() {
     bodyInput.val('');
 
   });
-  $("#waiting").on("click", ".devoure-it", function() {
+  $("#waiting").on("click", ".devoure-it", function(event) {
     event.preventDefault();  
     // Constructing a newPost object to hand to the database
     var currentBurger = $(this)
